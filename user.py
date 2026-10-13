@@ -196,7 +196,7 @@ def main() -> None:
     menu += f"\n[cyan]{CUSTOM}[/cyan] | Check a specific username"
     while True:
         console.clear()
-        console.print(Panel(menu, title="[bold]Username Checker[/bold]", border_style="cyan", expand=False))
+        console.print(Panel(menu, title="[bold]Wumpus Validator[/bold]", border_style="cyan", expand=False))
         choice = console.input("[magenta]Select mode (q = quit): [/magenta]").strip().lower()
         if choice == "q":
             break
