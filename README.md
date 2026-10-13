@@ -2,6 +2,8 @@
 
 A lightweight Discord username availability checker.
 
+![Wumpus](image.png)
+
 ## Setup
 
 1. Install dependencies:
